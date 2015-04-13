@@ -1,0 +1,42 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "Keytarnicorn",
+    "longName": "Watch Tower AF",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "Watch Tower",
+    "uuid": "60e8210b-5d4c-4226-871b-cfe25c9077a7",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
