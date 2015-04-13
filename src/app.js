@@ -8,10 +8,10 @@ var UI = require('ui');
 var Vector2 = require('vector2');
 
 var main = new UI.Card({
-  title: 'Charmy Warriors',
+  title: 'Charmy Luck',
   icon: 'images/menu_icon.png',
-  subtitle: 'S2,Ep11 0:18:53',
-  body: '"Thrilling!! Riceballs?!"'
+  subtitle: '"Thrilling!! Riceballs?!"',
+  body: 'S2,Ep11 0:18:53'
 });
 
 main.show();
@@ -21,16 +21,13 @@ main.on('click', 'up', function(e) {
     sections: [{
       items: [{
         title: 'Bracelet Mode',
-        icon: 'images/menu_icon.png',
         subtitle: '6/99 Charms'
       }, {
 		title: 'Tune-In Mode',
-		icon: 'images/menu_icon.png',
         subtitle: 'Reusing animation...'
 	  }, {
         title: 'Episode Guide',
-		icon: 'images/menu_icon.png',
-        subtitle: 'Last Charm Get: S2,Ep5'
+        subtitle: 'Last Charm: S2,Ep5'
 	  }]
     }]
   });

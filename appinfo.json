@@ -5,7 +5,7 @@
         "configurable"
     ],
     "companyName": "Keytarnicorn",
-    "longName": "Watch Tower AF",
+    "longName": "Charmy Luck",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -32,7 +32,7 @@
             }
         ]
     },
-    "shortName": "Watch Tower",
+    "shortName": "Charmy Luck",
     "uuid": "60e8210b-5d4c-4226-871b-cfe25c9077a7",
     "versionCode": 1,
     "versionLabel": "1.0",
