@@ -8,10 +8,10 @@ var UI = require('ui');
 var Vector2 = require('vector2');
 
 var main = new UI.Card({
-  title: 'Watch Tower AF',
+  title: 'Charmy Warriors',
   icon: 'images/menu_icon.png',
-  subtitle: 'Portal Activated',
-  body: 'Press any button.'
+  subtitle: 'S2,Ep11 0:18:53',
+  body: '"Thrilling!! Riceballs?!"'
 });
 
 main.show();
@@ -20,13 +20,18 @@ main.on('click', 'up', function(e) {
   var menu = new UI.Menu({
     sections: [{
       items: [{
-        title: 'Pebble.js',
+        title: 'Bracelet Mode',
         icon: 'images/menu_icon.png',
-        subtitle: 'Can do Menus'
+        subtitle: '6/99 Charms'
       }, {
-        title: 'Second Item',
-        subtitle: 'Subtitle Text'
-      }]
+		title: 'Tune-In Mode',
+		icon: 'images/menu_icon.png',
+        subtitle: 'Reusing animation...'
+	  }, {
+        title: 'Episode Guide',
+		icon: 'images/menu_icon.png',
+        subtitle: 'Last Charm Get: S2,Ep5'
+	  }]
     }]
   });
   menu.on('select', function(e) {
