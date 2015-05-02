@@ -8,9 +8,9 @@ var UI = require('ui');
 var Vector2 = require('vector2');
 
 var main = new UI.Card({
-  title: 'Charmy Luck',
+  title: 'Fish Wrestler',
   icon: 'images/menu_icon.png',
-  subtitle: '"Thrilling!! Riceballs?!"',
+  subtitle: '"Angler!! Piledrive?!"',
   body: 'S2,Ep11 0:18:53'
 });
 
